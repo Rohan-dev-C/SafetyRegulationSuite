@@ -13,7 +13,7 @@ A toolkit for automated industrial compliance checks:
 
 - **Clause Extraction**: Heuristically pulls “shall/must/should” statements from hundreds of regulatory files.  
 - **TF-IDF Indexing**: Builds a lightweight text index for fast similarity search, stores embeddings in a FAISS vector database.  
-- **Graph Construction**: Uses YOLOv8 + OpenCV to detect P&ID symbols and infer connections with NetworkX.  
+- **Graph Construction**: Uses YOLOv8 + OpenCV to detect P&ID components and storing in a knowledge graph using NetworkX.  
 - **SOP Parsing**: Reads DOCX SOPs (paragraphs & tables) to extract component references.  
 - **Discrepancy Logging**: Generates Human-readable Markdown reports viewable through a FastAPI web interface. 
 
